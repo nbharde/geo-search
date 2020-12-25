@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage",
-    "scss": "node-sass --watch src/styles/index.scss -o public/css"
+    "scss": "node-sass --watch src/styles/ -o public/css"
   },
   "keywords": [],
   "author": "",
