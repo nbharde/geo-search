@@ -1,0 +1,49 @@
+.nav-bar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #6200ea;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    .nav-bar-sm {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 768px) { 
+    .nav-bar-container {
+        max-width: 720px;
+    }
+}
+
+.main-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .component {
+        padding: 1rem 0 !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .main-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .main-container {
+        max-width: 720px;
+    }
+}
