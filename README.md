@@ -24,7 +24,7 @@ Steps to execute application on localhost -
 
 Execute following commands on terminal
 
-git clone https://github.com/nbharde/geo-search.git
-cd geo-search
-npm i
-npm start
+1. git clone https://github.com/nbharde/geo-search.git
+2. cd geo-search
+3. npm i
+4. npm start
