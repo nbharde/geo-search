@@ -1,14 +1,30 @@
 GEO-SEARCH
 This project was generated with React and Redux
 
-Development server
-Run npm start. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
-Build
-Run npm run build to build the project. The build artifacts will be stored in the build/ directory.
+3rd party API used - 
+http://www.geonames.org/export/web-services.html
 
-Test
-Run npm run test to run unit test of project.
 
-Test Coverage
-Run npm run coverage to run get the test coverage. Coverage will be stored in /coverage directory.
+Functionality -
+1. We have a Search box component 
+2. Using state to monitor what is the last 5 searches user performed
+3. Hitting the API above to fetch the details
+4. Show it in a Search result component to display the geo location names
+5. Avoiding multiple search requests before previous search result is shown
+
+
+Tech Stack Used -
+1. React
+2. Redux
+3. Sass
+
+
+Steps to execute application on localhost -
+
+Execute following commands on terminal
+
+git clone https://github.com/nbharde/geo-search.git
+cd geo-search
+npm i
+npm start
